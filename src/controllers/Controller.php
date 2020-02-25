@@ -11,12 +11,16 @@ abstract  class Controller
 {
 
     protected $viewManager;
-    protected $doctrineManager;
 
-    public function __construct(ViewManager $viewManager, DoctrineManager $doctrineManager)
+
+    public function __construct(ViewManager $viewManager)
     {
         $this->viewManager = $viewManager;
-        $this->doctrineManager = $doctrineManager;
+    }
+
+    public function redirectTo(string $page){
+        $host = $_SERVER['HTTP_HOST'];
+        header("Location : http://$host/$page");
     }
 
     public abstract function index();

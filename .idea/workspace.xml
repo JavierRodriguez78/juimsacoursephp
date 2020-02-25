@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b530a0-3c60-4d6a-b02b-633ea4987ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DoctrineManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/Entity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/entities/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Juimsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Juimsa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/Service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/UserService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.twig.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/cache/logs/dev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RouterManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/RouterManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/Web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/Web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template.twig.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template.twig.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +153,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -202,7 +202,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:@juinsa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@741a67c6" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@45539e38" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -225,7 +225,7 @@
       <workItem from="1581940834410" duration="22000" />
       <workItem from="1582273509245" duration="7001000" />
       <workItem from="1582286379775" duration="22000" />
-      <workItem from="1582619469938" duration="8019000" />
+      <workItem from="1582619469938" duration="10298000" />
     </task>
     <servers />
   </component>
@@ -255,10 +255,10 @@
     </state>
     <state width="420" height="758" key="HiddenNamespacesPopup/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582623489229" />
     <state width="283" height="520" key="HiddenNamespacesPopup/70.27.1296.741/1366.0.1920.1080@70.27.1296.741" timestamp="1582280684761" />
-    <state x="1787" y="286" width="638" height="394" key="NewPhpClassDialog" timestamp="1582626179582">
+    <state x="1787" y="286" width="678" height="394" key="NewPhpClassDialog" timestamp="1582630905646">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1787" y="286" width="638" height="394" key="NewPhpClassDialog/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582626179582" />
+    <state x="1787" y="286" width="678" height="394" key="NewPhpClassDialog/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582630905646" />
     <state x="1787" y="286" width="638" height="415" key="NewPhpClassDialog/70.27.1296.741/1366.0.1920.1080@70.27.1296.741" timestamp="1582279651257" />
     <state x="511" y="322" width="404" height="158" key="NewPhpFileDialog" timestamp="1581501010901">
       <screen x="70" y="27" width="1296" height="741" />
