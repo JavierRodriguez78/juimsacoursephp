@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b530a0-3c60-4d6a-b02b-633ea4987ba2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.docker/web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/web/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Juimsa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Juimsa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cache/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/cache/logs/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phinx.yml" beforeDir="false" afterPath="$PROJECT_DIR$/phinx.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,35 @@
       <set />
     </option>
     <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@juinsa" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@juinsa" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@juinsa" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="juinsa_shop: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@juinsa" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="juinsa_shop: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="phinxlog: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@juinsa" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="juinsa_shop: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="users: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
@@ -83,6 +118,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XhZKmh4qP2JONvplQiRhMS5rIE" />
@@ -99,12 +135,73 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ExoDigital/PROYECTOS/Orca/Dietas/orca-dietas-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name=".docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value=".docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker..docker: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Docker-compose: .docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Images" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@juinsa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@juinsa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1a4e183d" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@juinsa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7010f9fb" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@juinsa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@741a67c6" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,6 +217,7 @@
       <workItem from="1581940834410" duration="22000" />
       <workItem from="1582273509245" duration="7001000" />
       <workItem from="1582286379775" duration="22000" />
+      <workItem from="1582619469938" duration="5351000" />
     </task>
     <servers />
   </component>
@@ -127,9 +225,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1946" y="145" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582280677740">
+    <state x="1946" y="145" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582623471916">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1946" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582623471916" />
     <state x="1946" y="145" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741/1366.0.1920.1080@70.27.1296.741" timestamp="1582280677740" />
     <state x="443" y="313" width="549" height="175" key="ComposerInitDialogKey" timestamp="1581500965442">
       <screen x="70" y="27" width="1296" height="741" />
@@ -139,9 +238,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2109" y="298" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582286399160" />
-    <state width="283" height="520" key="HiddenNamespacesPopup" timestamp="1582280684761">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state width="420" height="758" key="HiddenNamespacesPopup" timestamp="1582623489229">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="420" height="758" key="HiddenNamespacesPopup/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582623489229" />
     <state width="283" height="520" key="HiddenNamespacesPopup/70.27.1296.741/1366.0.1920.1080@70.27.1296.741" timestamp="1582280684761" />
     <state x="1787" y="286" width="638" height="415" key="NewPhpClassDialog" timestamp="1582279651257">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -151,13 +251,22 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="511" y="322" width="404" height="158" key="NewPhpFileDialog/70.27.1296.741/1366.0.1920.1080@70.27.1296.741" timestamp="1581501010901" />
-    <state x="2430" y="218" width="367" height="661" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1582280815220">
+    <state x="2185" y="409" width="381" height="269" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1582623620971">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="2185" y="409" width="381" height="269" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582623620971" />
+    <state x="2430" y="218" width="367" height="661" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1582623434840">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2430" y="218" width="367" height="661" key="com.intellij.database.view.ui.DbObjectDialog/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582623434840" />
     <state x="2430" y="218" width="367" height="661" key="com.intellij.database.view.ui.DbObjectDialog/70.27.1296.741/1366.0.1920.1080@70.27.1296.741" timestamp="1582280815220" />
     <state x="1974" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1582286379720">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1974" y="367" key="com.intellij.ide.util.TipDialog/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582286379720" />
+    <state x="2051" y="452" width="540" height="182" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582624505771">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2051" y="452" width="540" height="182" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/70.27.1296.741/1366.0.1920.1080@1366.0.1920.1080" timestamp="1582624505771" />
   </component>
 </project>

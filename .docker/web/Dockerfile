@@ -9,6 +9,13 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
     php -r "unlink('composer-setup.php');" && \
     mv composer.phar /usr/local/bin/composer
 
+# INSTALL MYSQL
+RUN docker-php-ext-install mysqli && \
+    docker-php-ext-enable mysqli && \
+    docker-php-ext-install pdo pdo_mysql
+
+
+
 #USER PERMISSION
 RUN useradd -G www-data,root -u 1000 -d /home/devuser devuser
 RUN mkdir -p /home/devuser/.composer && \
